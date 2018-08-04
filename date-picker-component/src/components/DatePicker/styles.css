@@ -1,0 +1,33 @@
+.date-picker-content{
+    text-align: center;
+}
+
+.day-element{
+    display: inline-flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 150px;
+    background-color: white;
+    color: #64666f;
+}
+.day-element-selected{
+    background-color: #6997ff;
+    color: white;
+}
+.day-element-disabled{
+    color: #d1d1d3;
+}
+
+.day{
+    
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.weekday{
+    font-size: 24px;
+    text-transform: uppercase;
+}

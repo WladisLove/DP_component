@@ -1,0 +1,79 @@
+.scrollable-area{
+    position: relative;
+    display: inline-block;
+}
+
+.scrollable-area-usual{
+    height: 55px;
+    line-height: 55px;
+    margin: 0 25px;
+    padding: 0 55px;
+}
+
+.scrollable-area-big{
+    height: 155px;
+    margin: auto;
+    padding: 0 70px;
+}
+
+.scrollable-area .content{
+    display: inline-block;
+    background-color: white;
+    color: #92959e;
+    font-size: 24px;
+    height: 100%;
+}
+
+.scrollable-area button:first-child{
+    position: absolute;
+    left: 0;
+}
+.scrollable-area button:last-child{
+    position: absolute;
+    right: 0;
+}
+
+.scrollable-area-usual .content{
+    width: 260px;
+}
+.scrollable-area-usual button{
+    width: 55px;
+}
+
+.scrollable-area-big .content{
+    width: auto;
+}
+.scrollable-area-big button{
+    width: 70px;
+}
+
+/*@media screen and (min-width: 960px) {
+    .scrollable-area-big .content{
+        width: 750px;
+    }
+    .scrollable-area-big button{
+        width: 60px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .scrollable-area-big .content{
+        width: 1050px;
+    }
+    .scrollable-area-big button{
+        width: 70px;
+    }
+}*/
+
+
+
+/*
+.scrollable-area button:first-child{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.scrollable-area button:last-child{
+    position: absolute;
+    top: 0;
+    right: 0;
+}*/

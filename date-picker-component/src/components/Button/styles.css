@@ -1,0 +1,12 @@
+button{
+    background-color: #fafafa;
+    height: 100%;
+    user-select: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}
