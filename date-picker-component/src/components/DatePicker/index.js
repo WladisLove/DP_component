@@ -11,7 +11,7 @@ const DatePicker = props => {
     const date = moment(props.value) || moment();
     
     const isDayDisabled = (day) => {
-        return undefined !== disabledDays.find(el => {
+        return disabledDays.find(el => {
             return el.getFullYear() === day.year() 
                 && el.getMonth() === day.month() 
                 && el.getDate() === day.date();
@@ -37,7 +37,7 @@ const DatePicker = props => {
             daysArr.push(<Day date={tmp}
                                 isCurrent={dateThrough === 0}
                                 isDisabled={isDayDisabled(tmp)}
-                                key={"day_"+i}/>);
+                                key={"day_"+tmp.date()}/>);
             dateThrough--;
         }
         return daysArr;
